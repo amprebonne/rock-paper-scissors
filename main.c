@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-int main()  {
+int game()  {
     int u_pick;
     printf("Choose randomly from 1st to 3rd alternative by entering the corresponding number:\n (1) rock\n (2) paper\n (3) scissors\n");
     scanf("%d", &u_pick);
@@ -22,7 +22,7 @@ int main()  {
     }
     else if(u_pick == 1 && r_pick == 2)  {
         printf("paper\n");
-        printf("wow, u WIN!!!");
+        printf("u loose");
     }
     else if(u_pick == 1 && r_pick == 3)  {
         printf("scissors\n");
@@ -34,7 +34,7 @@ int main()  {
     }
     else if(u_pick == 2 && r_pick == 1)  {
         printf("rock\n");
-        printf("u loose");
+        printf("wow, u WIN!!!");
     }
     else if(u_pick == 3 && r_pick == 1)   {
         printf("rock\n");
