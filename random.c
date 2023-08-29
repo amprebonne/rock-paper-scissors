@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-char rand_pick()  {
-    int r;
-    char r_pick;
+int rand_pick()  {
+    int r, r_pick;
     srand(time(NULL));
     r = rand()%9;
  /*   switch(r)   {
@@ -14,13 +13,14 @@ char rand_pick()  {
     }
 */
     if(r<3)    {
-        r_pick = "rock";
+        r_pick = 1;
     }
     else if(r>2 && r<5)     {
-        r_pick = "paper";
+        r_pick = 2;
     }
     else    {
-        r_pick = "scissors";
+        r_pick = 3;
     }
+    //printf("random number is %d", r_pick);
 return(r_pick);
 }
