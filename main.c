@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-int game()  {
+int main()  {
     int u_pick;
     printf("Choose randomly from 1st to 3rd alternative by entering the corresponding number:\n (1) rock\n (2) paper\n (3) scissors\n");
     scanf("%d", &u_pick);
