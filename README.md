@@ -10,7 +10,7 @@ Rock vs Scissor -> Rock wins.
 Paper vs Scissor -> Scissor wins.
 In this game, the user will be asked to make choice and according to the choice of user and computer and then the result will be displayed along with the choices of both computer and user.
 
-# Brief code documentation
+# Code brief
 It consists of the declaration of the variables.
 printf() and scanf() functions for displaying the content and taking input from the user. 
 It also contains  two predefined functions:srand() and rand() which are used to generate random numbers in the range [0, 9) and srand() especially will help to generate a random number at each time.
